@@ -40,7 +40,7 @@ stage('DeployToStaging') {
                 }
             }
         }
-stage('DeployToProduction') {
+        stage('DeployToProduction') {
             when {
                 branch 'master'
             }
